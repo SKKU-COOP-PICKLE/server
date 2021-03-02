@@ -3,22 +3,30 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www",
+    "start": "node ./server/bin/www",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "core-js": "^3.6.5",
-    "vue": "^2.6.11",
+    "@fortawesome/free-regular-svg-icons": "^5.15.2",
+    "axios": "^0.21.1",
     "cookie-parser": "~1.4.4",
+    "core-js": "^3.6.5",
     "debug": "~2.6.9",
     "ejs": "~2.6.1",
     "express": "~4.16.1",
     "http-errors": "~1.6.3",
-    "morgan": "~1.9.1"
+    "morgan": "~1.9.1",
+    "mysql": "^2.18.1",
+    "vue": "^2.6.11",
+    "vue-loading-button": "^0.2.0",
+    "vue-router": "^3.5.1"
   },
   "devDependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.34",
+    "@fortawesome/free-solid-svg-icons": "^5.15.2",
+    "@fortawesome/vue-fontawesome": "^2.0.2",
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-plugin-eslint": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
